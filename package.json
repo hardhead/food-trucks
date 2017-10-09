@@ -1,0 +1,20 @@
+{
+  "name": "food-trucks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "food_truck.js",
+  "preferGlobal": true,
+  "bin": {
+    "open-food-trucks": "./food_trucks.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marquis Morrow",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "console.table": "^0.9.1",
+    "node-fetch": "^1.7.3"
+  }
+}
